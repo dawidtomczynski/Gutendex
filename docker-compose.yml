@@ -1,0 +1,50 @@
+version: "3.7"
+services:
+  db:
+    container_name: db
+    image: postgres:14-alpine
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=gutendex
+      - POSTGRES_DATABASE=gutendex
+    networks:
+      - gutendex-db
+    volumes:
+      - gutendex-db:/var/lib/postgresql/data
+    restart: always
+  app:
+    container_name: app
+    build:
+      context: .
+      dockerfile: app.Dockerfile
+    networks:
+      - gutendex-db
+      - gutendex-serv
+    depends_on:
+      - db
+    restart: always
+  nginx:
+    container_name: nginx
+    image: nginx:1.19-alpine
+    volumes:
+       - ./nginx.conf:/etc/nginx/nginx.conf 
+       - ./project/static/:/usr/share/nginx/html/static
+    ports:
+      - 80:80
+    networks:
+      - gutendex-serv
+    depends_on:
+      - db
+      - app
+    restart: always      
+networks:
+  gutendex-db:
+    name: gutendex-db
+    driver: bridge
+  gutendex-serv:
+    name: gutendex-serv
+    driver: bridge
+volumes:
+  gutendex-db:
+    name: gutendex-db
+    driver: local

@@ -1,0 +1,38 @@
+Starting script at 11:16:57 on September 09, 2022
+  Making temporary directory...
+  Downloading compressed catalog (commented out - to make exam easier)...
+  Putting the catalog in the database...
+  Error while putting this book info in the database:
+ {
+    "id": 10,
+    "title": "The King James Version of the Bible",
+    "authors": [],
+    "type": null,
+    "subjects": [
+        "Bible"
+    ],
+    "languages": [
+        "en"
+    ],
+    "formats": {
+        "text/html": "https://www.gutenberg.org/files/10/10-h/10-h.htm",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/10.epub.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/10.kindle.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/10.txt.utf-8",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/10/10-0.txt",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/10.rdf",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/10/pg10.cover.medium.jpg",
+        "application/octet-stream": "https://www.gutenberg.org/files/10/10-0.zip"
+    },
+    "downloads": 5580,
+    "bookshelves": [
+        "Banned Books List from the American Library Association"
+    ],
+    "copyright": false
+} 
+
+Error: null value in column "media_type" of relation "books_book" violates not-null constraint
+DETAIL:  Failing row contains (9, 5580, 10, null, The King James Version of the Bible, f).
+
+
+  Sending E-mails (commented out - to make exam easier)...

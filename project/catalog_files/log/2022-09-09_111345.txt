@@ -1,0 +1,46 @@
+Starting script at 11:13:45 on September 09, 2022
+  Making temporary directory...
+  Downloading compressed catalog (commented out - to make exam easier)...
+  Putting the catalog in the database...
+  Error while putting this book info in the database:
+ {
+    "id": 1,
+    "title": "The Declaration of Independence of the United States of America",
+    "authors": [
+        {
+            "birth": 1743,
+            "death": 1826,
+            "name": "Jefferson, Thomas"
+        }
+    ],
+    "type": null,
+    "subjects": [
+        "United States -- History -- Revolution, 1775-1783 -- Sources",
+        "United States. Declaration of Independence"
+    ],
+    "languages": [
+        "en"
+    ],
+    "formats": {
+        "text/html": "https://www.gutenberg.org/files/1/1-h/1-h.htm",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/1.epub.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1.kindle.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/1.txt.utf-8",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/1/1-0.txt",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/1.rdf",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/1/pg1.cover.medium.jpg"
+    },
+    "downloads": 1041,
+    "bookshelves": [
+        "Politics",
+        "American Revolutionary War",
+        "United States Law"
+    ],
+    "copyright": false
+} 
+
+Error: null value in column "media_type" of relation "books_book" violates not-null constraint
+DETAIL:  Failing row contains (8, 1041, 1, null, The Declaration of Independence of the United States of America, f).
+
+
+  Sending E-mails (commented out - to make exam easier)...

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <pgterms:ebook rdf:about="ebooks/19926">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/8970">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1916</pgterms:deathdate>
+        <pgterms:alias>Fulton, Robert Irving</pgterms:alias>
+        <pgterms:name>Fulton, Robert I. (Robert Irving)</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1855</pgterms:birthdate>
+        <pgterms:alias>Fulton, R. I. (Robert Irving)</pgterms:alias>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19926.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-09T09:57:03.417242</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3fbf96be802042e8a423fcfd3b301780">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">489953</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nf72d958454ef40e6b42df662a77c61e5">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Recitations</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</pgterms:downloads>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/19926/19926-8.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-27T00:35:04</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N03891f482abf426d8b606b5e14e96942">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">910993</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/19926/19926-h/19926-h.htm">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1136504</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1184eb7477a74393af897c3019a73784">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-27T00:35:04</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/19926/19926.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N48f8b2a797034cc9aa8609968a8a3265">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5fe48ea18cb84cf68d106a00d56dd617">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353564</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-27T00:35:04</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/19926/19926.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">911015</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncaa105fbcf95474a8d117a88eb7f31e9">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-27T00:35:04</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>Standard Selections&#13;
+A Collection and Adaptation of Superior Productions from Best Authors for Use in Class Room and on the Platform</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19926.kindle.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N147c090f9a0c4e22a712c696d1c8f970">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">942952</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-09T09:57:01.515235</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-11-27</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/19926/19926-8.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na2f5b345ba4346369f507972e075b057">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N95b8363dbc4f49f3a66f3d748a3a02a8">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-27T00:35:04</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353655</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/8971">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1951</pgterms:deathdate>
+        <pgterms:alias>Trueblood, T. C. (Thomas Clarkson)</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1856</pgterms:birthdate>
+        <pgterms:name>Trueblood, Thomas C. (Thomas Clarkson)</pgterms:name>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19926.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">942952</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N25623054d173473fb20d2dca95e2d8de">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-09T09:57:21.331375</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/8972">
+        <pgterms:name>Trueblood, Edwin P.</pgterms:name>
+      </pgterms:agent>
+    </marcrel:edt>
+    <pgterms:marc010>07014811</pgterms:marc010>
+    <dcterms:tableOfContents>The Arena Scene from "Quo Vadis?". -- The Arrow and the Song. -- Aux Italiens. -- Bobby Shafto. -- Carcassonne. -- The Child-wife. -- Count Gismond. -- The Death of Arbaces. -- Dora. -- An Easter with Parepa. -- Those Evening Bells. -- Ginevra. -- The High Tide at Lincolnshire. -- How Did You Die?. -- The Indigo Bird. -- The Jackdaw of Rheims. -- Jaffar. -- Jim Bludsoe. -- King Robert of Sicily. -- The Lady of Shalott; Tennyson. A Legend of Service. -- Little Boy Blue; Field. -- Mary's Night Ride. -- Nydia, the Blind Girl. -- O Captain, My Captain!. -- On the Other Train. -- The Pansy. -- The Revenge; Tennyson. -- The Rider of the Black Horse. -- Sailing beyond Seas. -- The Sands of Dee. -- The School of Squeers. -- The Secret of Death; Arnold. -- Shamus O'Brien. -- My Ships. -- The Soldier's Reprieve. -- The Song; Scott. -- The Stirrup Cup. -- The Swan-song; Brooks. -- Sweet Afton. -- Violet's Blue. -- To a Waterfowl. -- The Wedding Gown. -- When the Snow Sifts Through. -- To a Wild Flower. -- The Fate of Zoroaster. -- Centennial Hymn. -- The Chambered Nautilus. -- Crossing the Bar. -- The Destruction of Sennacherib. -- Each and All. -- Laus Deo!. -- The Pilgrim Fathers. -- The Present Crisis; Lowell. -- The Recessional. -- The Sacredness of Work. -- What's Hallowed Ground?. -- The Encroachments of Philip. -- Oration against Antony; Cicero. -- Undue Lamentations over the Dead; Chrysostom. -- On Applauding Preachers; Chrysostom. -- On the Death of the Prince of Condé; Bossuet. -- War with America; Chatham. -- Attempt to Subjugate America; Chatham. -- Impeachment of Hastings; Burke. -- Conciliation with America; Burke. -- English Privileges in America; Burke. -- Bunker Hill Monument; Webster. -- Revolutionary Patriots; Webster. -- Character of Washington; Webster. -- The Call to Arms; Henry. -- Coercion of Delinquent States; Hamilton. -- The Reply to Hayne; Webster. -- The Murder of Lovejoy; Phillips. -- The Slavery Issue; Lincoln. -- Moral Aspect of the American War; Beecher. -- Abolition of War; Sumner. -- The American Flag; Beecher. -- The American People; Beveridge. -- The American Question; Bright. -- America's Relation to Missions; Angell. -- American Slavery; Bright. -- The Armenian Massacres; Gladstone. -- Battle Hymn of the Republic. -- The Blue and the Gray. -- Corruption of Prelates. -- The Cross of Gold. -- Death of Congressman Burnes; Ingalls. -- The Death of Garfield; Blaine. -- The Death of Grady; Graves. -- Death of Toussaint L'Ouverture; Phillips. -- The Dedication of Gettysburg Cemetery; Lincoln. -- The Fallen Heroes of Japan; Togo. -- The Glory of Peace; Sumner. -- The Hope of the Republic; Grady. -- Hungarian Heroism; Kossuth. -- International Relations; McKinley. -- Irish Home Rule; Gladstone. -- Lincoln; Castelar. -- Lincoln; Garfield. -- Louisiana Purchase Exposition; Hay. -- The Man with the Muck-rake; Roosevelt. -- Message to the Squadron; Togo. -- The Minute Man; Curtis. -- A More Perfect Union; Curtis. -- Napoleon; Corwin. -- Napoleon; Ingersoll. -- National Control of Corporations; Roosevelt. -- The Negro; Grady. -- New England; Quincy. -- The New South; Grady. -- O'Connell; Phillips. -- The Open Door; Henry. -- Organization of the World; Mead. -- The Permanency of Empire; Phillips. -- The Pilgrims; Phillips. -- Principles of the Founders; Mead. -- The Responsibility of War; Channing. -- Scotland; Flagg. -- Secession; Stephens. -- Second Inaugural Address; Lincoln. -- Slavery and the Union; Lincoln. -- Subjugation of the Filipino. -- Sufferings and Destiny of the Pilgrims. -- To Arms; Kossuth. -- True American Patriotism; Cockran. -- Vision of War; Ingersoll. -- War in the Twentieth Century; Mead. -- Washington; Phillips. -- A Boy's Mother. -- Almost beyond Endurance. -- A Bird in the Hand. -- Breaking the Charm. -- Candle Lightin' Time. -- The Day of Judgment. -- De Appile Tree. -- Dooley on La Grippe Microbes. -- A Doctrinal Discussion; Edwards. -- Finnigin to Flannigan. -- Gavroche and the Elephant. -- The Hazing of Valiant. -- The Hindoo's Paradise. -- If I Knew. -- The Imaginary Invalid. -- Jane Jones. -- Knee-deep in June. -- Little Breeches. -- The Low-Backed Car. -- Mammy's Pickanin'. -- Mandalay. -- Mr. Coon and Mr. Rabbit. -- Money Musk. -- The One-legged Goose. -- The Pessimist. -- Schneider Sees Leah. -- The Superfluous Man. -- The Usual Way. -- The Wedding Fee. -- When Malindy Sings. -- When the Cows Come Home. -- The Confessional. -- Jean Valjean and the Good Bishop. -- Lasca. -- Michael Strogoff (excerpt). -- Mrs. Tree. -- The Portrait. -- The Tell-tale Heart. -- The Uncle. -- Beau Brummell (select scenes). -- The Bells, Act III, Scene I. -- The Lady of Lyons (select scenes). -- Pygmalion and Galatea (select scenes). -- Rip Van Winkle (select scenes). -- The Rivals (select scenes). -- The Set of Turquoise (select scenes). -- She Stoops to Conquer, Act II, Scene I.</dcterms:tableOfContents>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/19926/pg19926.cover.small.jpg">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3515</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5372a3dc44694bd0804214077598f6aa">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-09T09:57:01.861218</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19926.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-09T09:56:43.622077</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">489952</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbb3b0387f6fd47fdaf0f1df8955b0b6d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19926.txt.utf-8">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6eacb181a5ed41fd887545d6f60cc83c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-09T09:56:41.554066</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">911022</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N2d9279258259456d9391a1bc86d045f7">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19926.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20877</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-09T09:57:21.679367</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N845579d6998a4c5e9421a480bb1ea71f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/19926/19926-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nde3f8f04c9a14664ad7351f6d9571b61">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-11-27T00:35:04</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">382598</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N35e73c29a0e04926bbbbf63b5f929b3c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/19926/pg19926.cover.medium.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15200</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-09T09:57:02.108225</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N41bc149ce56b4af4823547614c4050f5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nf90ab32407bd4bb6be6f6ac4238c6014">
+        <rdf:value>PN</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/19926.html.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1110778</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-09T09:56:42.431067</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19926"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndd33dd1255e941809a26831bbbbbd60a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+</rdf:RDF>
